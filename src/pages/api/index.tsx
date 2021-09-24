@@ -1,9 +1,9 @@
 import styles from './index.less';
 
-export default function IndexPage() {
+export default function ApiPage() {
   return (
     <div className="container">
-      <h1 className={styles.title}>Page index</h1>
+      <h1 className={styles.title}>Page api</h1>
     </div>
   );
 }
