@@ -11,10 +11,8 @@ export default [
       { path: '/api', component: '@/pages/api/index' },
       { path: '/hook', component: '@/pages/hook/index' },
       // 404
-      { path: '*', redirect: '/405' },
+      { path: '*', redirect: '/404' },
     ]
-  },
-  // 404
-  { path: '*', redirect: '/404' },
+  }
 ]
 
