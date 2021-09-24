@@ -9,7 +9,9 @@ export default [
       { path: '/core', component: '@/pages/core/index' },
       { path: '/advanced', component: '@/pages/advanced/index' },
       { path: '/api', component: '@/pages/api/index' },
-      { path: '/hook', component: '@/pages/hook/index' }
+      { path: '/hook', component: '@/pages/hook/index' },
+      // 404
+      { path: '*', redirect: '/405' },
     ]
   },
   // 404
