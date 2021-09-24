@@ -22,6 +22,10 @@ const navList = [
   {
     path: '/hook',
     name: 'hook'
+  },
+  {
+    path: '/about',
+    name: 'about'
   }
 ]
 
