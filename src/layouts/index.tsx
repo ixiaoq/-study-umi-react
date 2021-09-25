@@ -1,11 +1,10 @@
-import Nav from './Nav/Nav'
+import Nav from './Nav/Nav';
 
-export default function Layouts (props: any) {
-  console.log(props)
+export default function Layouts(props: any) {
   return (
     <div className="layouts">
       <Nav />
-      { props.children }
+      {props.children}
     </div>
-  )
+  );
 }
